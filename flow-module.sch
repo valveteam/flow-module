@@ -1,0 +1,486 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:valveteam
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title "Valve Control Flow Circuitry"
+Date "2018-05-22"
+Rev "1"
+Comp "Valve Team"
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L CONN_01X06 P?
+U 1 1 5B04304C
+P 1000 3000
+F 0 "P?" H 1000 3350 50  0000 C CNN
+F 1 "MOLEX_01X06" V 1100 3000 50  0000 C CNN
+F 2 "" H 1000 3000 50  0000 C CNN
+F 3 "" H 1000 3000 50  0000 C CNN
+	1    1000 3000
+	-1   0    0    1   
+$EndComp
+$Comp
+L CONN_01X02 P?
+U 1 1 5B0431B0
+P 5350 1300
+F 0 "P?" H 5350 1450 50  0000 C CNN
+F 1 "CONN_01X02" V 5450 1300 50  0000 C CNN
+F 2 "" H 5350 1300 50  0000 C CNN
+F 3 "" H 5350 1300 50  0000 C CNN
+	1    5350 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X02 P?
+U 1 1 5B043210
+P 5650 3100
+F 0 "P?" H 5650 3250 50  0000 C CNN
+F 1 "TERM_01X02" V 5750 3100 50  0000 C CNN
+F 2 "" H 5650 3100 50  0000 C CNN
+F 3 "" H 5650 3100 50  0000 C CNN
+	1    5650 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X06 P?
+U 1 1 5B04327A
+P 950 1650
+F 0 "P?" H 950 2000 50  0000 C CNN
+F 1 "MOLEX_01X06" V 1050 1650 50  0000 C CNN
+F 2 "" H 950 1650 50  0000 C CNN
+F 3 "" H 950 1650 50  0000 C CNN
+	1    950  1650
+	-1   0    0    1   
+$EndComp
+$Comp
+L CONN_01X02 P?
+U 1 1 5B0432BB
+P 950 850
+F 0 "P?" H 950 1000 50  0000 C CNN
+F 1 "TERM_01X02" V 1050 850 50  0000 C CNN
+F 2 "" H 950 850 50  0000 C CNN
+F 3 "" H 950 850 50  0000 C CNN
+	1    950  850 
+	-1   0    0    -1  
+$EndComp
+$Comp
+L L298P H?
+U 1 1 5B043515
+P 3000 1400
+F 0 "H?" H 3350 1950 60  0000 C CNN
+F 1 "L298P" H 2650 1950 60  0000 C CNN
+F 2 "" H 2700 1800 60  0000 C CNN
+F 3 "" H 2700 1800 60  0000 C CNN
+	1    3000 1400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3650 1250 5150 1250
+Wire Wire Line
+	3650 1350 5150 1350
+NoConn ~ 3650 1150
+NoConn ~ 2300 1150
+$Comp
+L Earth #PWR?
+U 1 1 5B043BA9
+P 3650 1850
+F 0 "#PWR?" H 3650 1600 50  0001 C CNN
+F 1 "Earth" H 3650 1700 50  0001 C CNN
+F 2 "" H 3650 1850 50  0000 C CNN
+F 3 "" H 3650 1850 50  0000 C CNN
+	1    3650 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Earth #PWR?
+U 1 1 5B043BEF
+P 2300 1850
+F 0 "#PWR?" H 2300 1600 50  0001 C CNN
+F 1 "Earth" H 2300 1700 50  0001 C CNN
+F 2 "" H 2300 1850 50  0000 C CNN
+F 3 "" H 2300 1850 50  0000 C CNN
+	1    2300 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Earth #PWR?
+U 1 1 5B043C19
+P 3650 950
+F 0 "#PWR?" H 3650 700 50  0001 C CNN
+F 1 "Earth" H 3650 800 50  0001 C CNN
+F 2 "" H 3650 950 50  0000 C CNN
+F 3 "" H 3650 950 50  0000 C CNN
+	1    3650 950 
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Earth #PWR?
+U 1 1 5B043C36
+P 2300 950
+F 0 "#PWR?" H 2300 700 50  0001 C CNN
+F 1 "Earth" H 2300 800 50  0001 C CNN
+F 2 "" H 2300 950 50  0000 C CNN
+F 3 "" H 2300 950 50  0000 C CNN
+	1    2300 950 
+	0    1    1    0   
+$EndComp
+$Comp
+L Earth #PWR?
+U 1 1 5B043C8F
+P 1150 900
+F 0 "#PWR?" H 1150 650 50  0001 C CNN
+F 1 "Earth" H 1150 750 50  0001 C CNN
+F 2 "" H 1150 900 50  0000 C CNN
+F 3 "" H 1150 900 50  0000 C CNN
+	1    1150 900 
+	0    -1   -1   0   
+$EndComp
+$Comp
+L VCC #PWR?
+U 1 1 5B043F32
+P 1150 800
+F 0 "#PWR?" H 1150 650 50  0001 C CNN
+F 1 "VCC" H 1150 950 50  0000 C CNN
+F 2 "" H 1150 800 50  0000 C CNN
+F 3 "" H 1150 800 50  0000 C CNN
+	1    1150 800 
+	0    1    1    0   
+$EndComp
+$Comp
+L VCC #PWR?
+U 1 1 5B043F56
+P 2300 1450
+F 0 "#PWR?" H 2300 1300 50  0001 C CNN
+F 1 "VCC" H 2300 1600 50  0000 C CNN
+F 2 "" H 2300 1450 50  0000 C CNN
+F 3 "" H 2300 1450 50  0000 C CNN
+	1    2300 1450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L VSS #PWR?
+U 1 1 5B04454B
+P 1150 1900
+F 0 "#PWR?" H 1150 1750 50  0001 C CNN
+F 1 "VSS" H 1150 2050 50  0000 C CNN
+F 2 "" H 1150 1900 50  0000 C CNN
+F 3 "" H 1150 1900 50  0000 C CNN
+	1    1150 1900
+	0    1    1    0   
+$EndComp
+$Comp
+L VSS #PWR?
+U 1 1 5B04456F
+P 3650 1750
+F 0 "#PWR?" H 3650 1600 50  0001 C CNN
+F 1 "VSS" H 3650 1900 50  0000 C CNN
+F 2 "" H 3650 1750 50  0000 C CNN
+F 3 "" H 3650 1750 50  0000 C CNN
+	1    3650 1750
+	0    1    1    0   
+$EndComp
+$Comp
+L VSS #PWR?
+U 1 1 5B0445A9
+P 3650 1550
+F 0 "#PWR?" H 3650 1400 50  0001 C CNN
+F 1 "VSS" H 3650 1700 50  0000 C CNN
+F 2 "" H 3650 1550 50  0000 C CNN
+F 3 "" H 3650 1550 50  0000 C CNN
+	1    3650 1550
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3650 1650 3950 1650
+Text GLabel 3950 1650 2    60   Input ~ 0
+Input3
+Wire Wire Line
+	3650 1450 3950 1450
+Text GLabel 3950 1450 2    60   Input ~ 0
+Input4
+NoConn ~ 2300 1750
+NoConn ~ 2300 1650
+NoConn ~ 2300 1550
+NoConn ~ 2300 1350
+NoConn ~ 2300 1250
+Text GLabel 1150 1700 2    60   Input ~ 0
+Input3
+Text GLabel 1150 1600 2    60   Input ~ 0
+Input4
+NoConn ~ 2300 1050
+NoConn ~ 3650 1050
+Text Notes 5600 1350 0    60   ~ 0
+To Valve\n
+Text Notes 1250 700  0    60   ~ 0
+From Power Supply
+Text Notes 750  2150 0    60   ~ 0
+From Control Module\n
+$Comp
+L Earth #PWR?
+U 1 1 5B04597C
+P 1150 1400
+F 0 "#PWR?" H 1150 1150 50  0001 C CNN
+F 1 "Earth" H 1150 1250 50  0001 C CNN
+F 2 "" H 1150 1400 50  0000 C CNN
+F 3 "" H 1150 1400 50  0000 C CNN
+	1    1150 1400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L VAA #PWR?
+U 1 1 5B045A4D
+P 1200 3250
+F 0 "#PWR?" H 1200 3100 50  0001 C CNN
+F 1 "VAA" H 1200 3400 50  0000 C CNN
+F 2 "" H 1200 3250 50  0000 C CNN
+F 3 "" H 1200 3250 50  0000 C CNN
+	1    1200 3250
+	-1   0    0    1   
+$EndComp
+$Comp
+L Earth #PWR?
+U 1 1 5B045A74
+P 1200 2750
+F 0 "#PWR?" H 1200 2500 50  0001 C CNN
+F 1 "Earth" H 1200 2600 50  0001 C CNN
+F 2 "" H 1200 2750 50  0000 C CNN
+F 3 "" H 1200 2750 50  0000 C CNN
+	1    1200 2750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L LMD18201T H?
+U 1 1 5B043BC1
+P 3250 2900
+F 0 "H?" H 3450 3300 60  0000 C CNN
+F 1 "LMD18201T" H 3000 3300 60  0000 C CNN
+F 2 "" H 3250 2950 60  0000 C CNN
+F 3 "" H 3250 2950 60  0000 C CNN
+	1    3250 2900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3700 2950 3700 3050
+Wire Wire Line
+	3700 2950 3850 2950
+Connection ~ 3700 2950
+$Comp
+L Earth #PWR?
+U 1 1 5B043D56
+P 3850 2950
+F 0 "#PWR?" H 3850 2700 50  0001 C CNN
+F 1 "Earth" H 3850 2800 50  0001 C CNN
+F 2 "" H 3850 2950 50  0000 C CNN
+F 3 "" H 3850 2950 50  0000 C CNN
+	1    3850 2950
+	0    -1   -1   0   
+$EndComp
+Text Notes 5900 3050 0    60   ~ 0
+To Valve\n
+Text GLabel 4100 3550 2    60   Input ~ 0
+Output1
+Text GLabel 4100 2750 2    60   Input ~ 0
+Output2
+Text GLabel 5450 3050 0    60   Input ~ 0
+Output2
+Text GLabel 5450 3150 0    60   Input ~ 0
+Output1
+$Comp
+L VCC #PWR?
+U 1 1 5B0448D2
+P 3700 3150
+F 0 "#PWR?" H 3700 3000 50  0001 C CNN
+F 1 "VCC" H 3700 3300 50  0000 C CNN
+F 2 "" H 3700 3150 50  0000 C CNN
+F 3 "" H 3700 3150 50  0000 C CNN
+	1    3700 3150
+	0    1    1    0   
+$EndComp
+$Comp
+L D D?
+U 1 1 5B044E29
+P 4550 1050
+F 0 "D?" H 4550 1150 50  0000 C CNN
+F 1 "D" H 4550 950 50  0000 C CNN
+F 2 "" H 4550 1050 50  0000 C CNN
+F 3 "" H 4550 1050 50  0000 C CNN
+	1    4550 1050
+	0    1    1    0   
+$EndComp
+$Comp
+L D D?
+U 1 1 5B044E8E
+P 4850 1050
+F 0 "D?" H 4850 1150 50  0000 C CNN
+F 1 "D" H 4850 950 50  0000 C CNN
+F 2 "" H 4850 1050 50  0000 C CNN
+F 3 "" H 4850 1050 50  0000 C CNN
+	1    4850 1050
+	0    1    1    0   
+$EndComp
+$Comp
+L D D?
+U 1 1 5B044F13
+P 4550 1550
+F 0 "D?" H 4550 1650 50  0000 C CNN
+F 1 "D" H 4550 1450 50  0000 C CNN
+F 2 "" H 4550 1550 50  0000 C CNN
+F 3 "" H 4550 1550 50  0000 C CNN
+	1    4550 1550
+	0    1    1    0   
+$EndComp
+$Comp
+L D D?
+U 1 1 5B044F51
+P 4850 1550
+F 0 "D?" H 4850 1650 50  0000 C CNN
+F 1 "D" H 4850 1450 50  0000 C CNN
+F 2 "" H 4850 1550 50  0000 C CNN
+F 3 "" H 4850 1550 50  0000 C CNN
+	1    4850 1550
+	0    1    1    0   
+$EndComp
+$Comp
+L Earth #PWR?
+U 1 1 5B044F8A
+P 4550 1700
+F 0 "#PWR?" H 4550 1450 50  0001 C CNN
+F 1 "Earth" H 4550 1550 50  0001 C CNN
+F 2 "" H 4550 1700 50  0000 C CNN
+F 3 "" H 4550 1700 50  0000 C CNN
+	1    4550 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Earth #PWR?
+U 1 1 5B044FB6
+P 4850 1700
+F 0 "#PWR?" H 4850 1450 50  0001 C CNN
+F 1 "Earth" H 4850 1550 50  0001 C CNN
+F 2 "" H 4850 1700 50  0000 C CNN
+F 3 "" H 4850 1700 50  0000 C CNN
+	1    4850 1700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4550 1200 4550 1400
+Connection ~ 4550 1250
+Wire Wire Line
+	4850 1200 4850 1400
+Connection ~ 4850 1350
+$Comp
+L VCC #PWR?
+U 1 1 5B0453B8
+P 4550 900
+F 0 "#PWR?" H 4550 750 50  0001 C CNN
+F 1 "VCC" H 4550 1050 50  0000 C CNN
+F 2 "" H 4550 900 50  0000 C CNN
+F 3 "" H 4550 900 50  0000 C CNN
+	1    4550 900 
+	1    0    0    -1  
+$EndComp
+$Comp
+L VCC #PWR?
+U 1 1 5B0454E1
+P 4850 900
+F 0 "#PWR?" H 4850 750 50  0001 C CNN
+F 1 "VCC" H 4850 1050 50  0000 C CNN
+F 2 "" H 4850 900 50  0000 C CNN
+F 3 "" H 4850 900 50  0000 C CNN
+	1    4850 900 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3700 2750 4100 2750
+Wire Wire Line
+	3700 3550 4100 3550
+$Comp
+L C C?
+U 1 1 5B045DA5
+P 3850 2650
+F 0 "C?" V 3700 2750 50  0000 L CNN
+F 1 "C" V 3700 2550 50  0000 L CNN
+F 2 "" H 3888 2500 50  0000 C CNN
+F 3 "" H 3850 2650 50  0000 C CNN
+	1    3850 2650
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4000 2750 4000 2650
+Connection ~ 4000 2750
+$Comp
+L C C?
+U 1 1 5B0461EC
+P 3850 3650
+F 0 "C?" V 3700 3750 50  0000 L CNN
+F 1 "C" V 3700 3550 50  0000 L CNN
+F 2 "" H 3888 3500 50  0000 C CNN
+F 3 "" H 3850 3650 50  0000 C CNN
+	1    3850 3650
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4000 3650 4000 3550
+Connection ~ 4000 3550
+Text GLabel 1200 2950 2    60   Input ~ 0
+PWM
+Text GLabel 3900 3250 2    60   Input ~ 0
+PWM
+Wire Wire Line
+	3700 3250 3900 3250
+Text GLabel 4200 3350 2    60   Input ~ 0
+Brake
+Wire Wire Line
+	3700 3350 4200 3350
+Text GLabel 3700 3450 2    60   Input ~ 0
+Dir
+Text GLabel 1500 3050 2    60   Input ~ 0
+Brake
+Text GLabel 1200 3150 2    60   Input ~ 0
+Dir
+Wire Wire Line
+	1200 3050 1500 3050
+Text GLabel 3700 2850 2    60   Input ~ 0
+Flag
+Text GLabel 1500 2850 2    60   Input ~ 0
+Flag
+Wire Wire Line
+	1200 2850 1500 2850
+Text Notes 900  3600 0    60   ~ 0
+From Control Module\n
+$EndSCHEMATC
