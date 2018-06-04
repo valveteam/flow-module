@@ -1,0 +1,25 @@
+Component,Description,Part,References,Value,Footprint,Quantity Per PCB,Datasheet
+1,Unpolarized capacitor,C,C1 C2,C,C_0805_HandSoldering,2,
+2,Diode,D,D1 D2 D3 D4,D,do219ab,4,
+3,,LED-RESCUE-flow-module,D5 D6 D7,LED,LED_0805_HandSoldering,3,
+4,,L298P,H1,L298P,powerso-20,1,
+5,,LMD18201T,H2,LMD18201T,TO-220-11,1,
+6,,CONN_01X06,P2 P3,MOLEX_01X06,Molex_KK-6410-06_06x2.54mm_Straight,2,
+7,,CONN_01X02,P1 P4 P5,TERM_01X02,TE_TERM,3,
+8,Resistor,R,R2 R3,330,R_0805_HandSoldering,2,
+9,Resistor,R,R1,680,R_0805_HandSoldering,1,
+
+
+
+
+
+Component Groups:,9
+Component Count:,19
+Fitted Components:,19
+Number of PCBs:,1
+Total components:,19
+Schematic Version:,1
+Schematic Date:,2018-05-22
+BoM Date:,04/06/2018 09:51:26
+Schematic Source:,C:/Users/tooyi/Dropbox/tfpb/flow-module/flow-module.sch
+KiCad Version:,Eeschema 4.0.7

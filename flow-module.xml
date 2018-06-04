@@ -1,0 +1,453 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>C:/Users/tooyi/Dropbox/tfpb/flow-module/flow-module.sch</source>
+    <date>04/06/2018 09:51:26</date>
+    <tool>Eeschema 4.0.7</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>Valve Control Flow Circuitry</title>
+        <company>Valve Team</company>
+        <rev>1</rev>
+        <date>2018-05-22</date>
+        <source>flow-module.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="P3">
+      <value>MOLEX_01X06</value>
+      <footprint>ValveTeam:Molex_KK-6410-06_06x2.54mm_Straight</footprint>
+      <libsource lib="flow-module-cache" part="CONN_01X06"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B04304C</tstamp>
+    </comp>
+    <comp ref="P5">
+      <value>TERM_01X02</value>
+      <footprint>ValveTeam:TE_TERM</footprint>
+      <libsource lib="flow-module-cache" part="CONN_01X02"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B043210</tstamp>
+    </comp>
+    <comp ref="P2">
+      <value>MOLEX_01X06</value>
+      <footprint>ValveTeam:Molex_KK-6410-06_06x2.54mm_Straight</footprint>
+      <libsource lib="flow-module-cache" part="CONN_01X06"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B04327A</tstamp>
+    </comp>
+    <comp ref="P1">
+      <value>TERM_01X02</value>
+      <footprint>ValveTeam:TE_TERM</footprint>
+      <libsource lib="flow-module-cache" part="CONN_01X02"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B0432BB</tstamp>
+    </comp>
+    <comp ref="H1">
+      <value>L298P</value>
+      <footprint>ValveTeam:powerso-20</footprint>
+      <libsource lib="flow-module-cache" part="L298P"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B043515</tstamp>
+    </comp>
+    <comp ref="H2">
+      <value>LMD18201T</value>
+      <footprint>ValveTeam:TO-220-11</footprint>
+      <libsource lib="flow-module-cache" part="LMD18201T"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B043BC1</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>D</value>
+      <footprint>ValveTeam:do219ab</footprint>
+      <libsource lib="device" part="D"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B044E29</tstamp>
+    </comp>
+    <comp ref="D3">
+      <value>D</value>
+      <footprint>ValveTeam:do219ab</footprint>
+      <libsource lib="device" part="D"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B044E8E</tstamp>
+    </comp>
+    <comp ref="D2">
+      <value>D</value>
+      <footprint>ValveTeam:do219ab</footprint>
+      <libsource lib="device" part="D"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B044F13</tstamp>
+    </comp>
+    <comp ref="D4">
+      <value>D</value>
+      <footprint>ValveTeam:do219ab</footprint>
+      <libsource lib="device" part="D"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B044F51</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>C</value>
+      <footprint>Capacitors_SMD:C_0805_HandSoldering</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B045DA5</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>C</value>
+      <footprint>Capacitors_SMD:C_0805_HandSoldering</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B0461EC</tstamp>
+    </comp>
+    <comp ref="D5">
+      <value>LED</value>
+      <footprint>LEDs:LED_0805_HandSoldering</footprint>
+      <libsource lib="flow-module-rescue" part="LED-RESCUE-flow-module"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B052BE4</tstamp>
+    </comp>
+    <comp ref="D6">
+      <value>LED</value>
+      <footprint>LEDs:LED_0805_HandSoldering</footprint>
+      <libsource lib="flow-module-rescue" part="LED-RESCUE-flow-module"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B052C8D</tstamp>
+    </comp>
+    <comp ref="D7">
+      <value>LED</value>
+      <footprint>LEDs:LED_0805_HandSoldering</footprint>
+      <libsource lib="flow-module-rescue" part="LED-RESCUE-flow-module"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B052CD0</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>680</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B052D3E</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>330</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B052DC4</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>330</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B052E1E</tstamp>
+    </comp>
+    <comp ref="P4">
+      <value>TERM_01X02</value>
+      <footprint>ValveTeam:TE_TERM</footprint>
+      <libsource lib="flow-module-cache" part="CONN_01X02"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B05379D</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="device" part="C">
+      <description>Unpolarized capacitor</description>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="flow-module-cache" part="CONN_01X02">
+      <footprints>
+        <fp>Pin_Header_Straight_1X02</fp>
+        <fp>Pin_Header_Angled_1X02</fp>
+        <fp>Socket_Strip_Straight_1X02</fp>
+        <fp>Socket_Strip_Angled_1X02</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_01X02</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="flow-module-cache" part="CONN_01X06">
+      <footprints>
+        <fp>Pin_Header_Straight_1X06</fp>
+        <fp>Pin_Header_Angled_1X06</fp>
+        <fp>Socket_Strip_Straight_1X06</fp>
+        <fp>Socket_Strip_Angled_1X06</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_01X06</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+        <pin num="3" name="P3" type="passive"/>
+        <pin num="4" name="P4" type="passive"/>
+        <pin num="5" name="P5" type="passive"/>
+        <pin num="6" name="P6" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="D">
+      <description>Diode</description>
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*SingleDiode</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="flow-module-cache" part="L298P">
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">L298P</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="input"/>
+        <pin num="2" name="SenseA" type="input"/>
+        <pin num="3" name="N.C." type="input"/>
+        <pin num="4" name="Out1" type="input"/>
+        <pin num="5" name="Out2" type="input"/>
+        <pin num="6" name="Vs" type="input"/>
+        <pin num="7" name="Input1" type="input"/>
+        <pin num="8" name="EnableA" type="input"/>
+        <pin num="9" name="Input2" type="input"/>
+        <pin num="10" name="GND" type="input"/>
+        <pin num="11" name="GND" type="input"/>
+        <pin num="12" name="VSS" type="input"/>
+        <pin num="13" name="Input3" type="input"/>
+        <pin num="14" name="EnableB" type="input"/>
+        <pin num="15" name="Input4" type="input"/>
+        <pin num="16" name="Out3" type="input"/>
+        <pin num="17" name="Out4" type="input"/>
+        <pin num="18" name="N.C." type="input"/>
+        <pin num="19" name="SenseB" type="input"/>
+        <pin num="20" name="GND" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="flow-module-rescue" part="LED-RESCUE-flow-module">
+      <footprints>
+        <fp>LED-3MM</fp>
+        <fp>LED-5MM</fp>
+        <fp>LED-10MM</fp>
+        <fp>LED-0603</fp>
+        <fp>LED-0805</fp>
+        <fp>LED-1206</fp>
+        <fp>LEDV</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED-RESCUE-flow-module</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="flow-module-cache" part="LMD18201T">
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">LMD18201T</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Bootstrap1" type="input"/>
+        <pin num="2" name="Output1" type="input"/>
+        <pin num="3" name="Dir" type="input"/>
+        <pin num="4" name="Brake" type="input"/>
+        <pin num="5" name="PWM" type="input"/>
+        <pin num="6" name="Vs" type="input"/>
+        <pin num="7" name="P_GND" type="input"/>
+        <pin num="8" name="S_GND" type="input"/>
+        <pin num="9" name="TFlag" type="input"/>
+        <pin num="10" name="Output2" type="input"/>
+        <pin num="11" name="Bootstrap2" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="R">
+      <description>Resistor</description>
+      <footprints>
+        <fp>R_*</fp>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="flow-module-rescue">
+      <uri>C:\Users\tooyi\Dropbox\tfpb\flow-module\flow-module-rescue.lib</uri>
+    </library>
+    <library logical="device">
+      <uri>C:\Program Files\KiCad\share\kicad\library\device.lib</uri>
+    </library>
+    <library logical="flow-module-cache">
+      <uri>C:\Users\tooyi\Dropbox\tfpb\flow-module\flow-module-cache.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="VCC">
+      <node ref="P1" pin="1"/>
+      <node ref="H1" pin="6"/>
+      <node ref="H2" pin="6"/>
+      <node ref="D5" pin="2"/>
+      <node ref="D3" pin="1"/>
+      <node ref="D1" pin="1"/>
+    </net>
+    <net code="2" name="Earth">
+      <node ref="P3" pin="6"/>
+      <node ref="R1" pin="2"/>
+      <node ref="R2" pin="2"/>
+      <node ref="H2" pin="7"/>
+      <node ref="H1" pin="20"/>
+      <node ref="D4" pin="2"/>
+      <node ref="H1" pin="11"/>
+      <node ref="H1" pin="10"/>
+      <node ref="P2" pin="6"/>
+      <node ref="P1" pin="2"/>
+      <node ref="R3" pin="2"/>
+      <node ref="H1" pin="1"/>
+      <node ref="D2" pin="2"/>
+      <node ref="H2" pin="8"/>
+    </net>
+    <net code="3" name="Output2">
+      <node ref="H2" pin="10"/>
+      <node ref="P5" pin="1"/>
+      <node ref="C1" pin="1"/>
+    </net>
+    <net code="4" name="Net-(C1-Pad2)">
+      <node ref="C1" pin="2"/>
+      <node ref="H2" pin="11"/>
+    </net>
+    <net code="5" name="Net-(C2-Pad1)">
+      <node ref="C2" pin="1"/>
+      <node ref="H2" pin="1"/>
+    </net>
+    <net code="6" name="Flag">
+      <node ref="H2" pin="9"/>
+      <node ref="P3" pin="5"/>
+    </net>
+    <net code="7" name="Output1">
+      <node ref="H2" pin="2"/>
+      <node ref="C2" pin="2"/>
+      <node ref="P5" pin="2"/>
+    </net>
+    <net code="8" name="Net-(D6-Pad1)">
+      <node ref="D6" pin="1"/>
+      <node ref="R2" pin="1"/>
+    </net>
+    <net code="9" name="VAA">
+      <node ref="P3" pin="1"/>
+      <node ref="D6" pin="2"/>
+    </net>
+    <net code="10" name="Net-(D7-Pad1)">
+      <node ref="R3" pin="1"/>
+      <node ref="D7" pin="1"/>
+    </net>
+    <net code="11" name="VSS">
+      <node ref="P2" pin="1"/>
+      <node ref="D7" pin="2"/>
+      <node ref="H1" pin="14"/>
+      <node ref="H1" pin="12"/>
+    </net>
+    <net code="12" name="Net-(D5-Pad1)">
+      <node ref="R1" pin="1"/>
+      <node ref="D5" pin="1"/>
+    </net>
+    <net code="13" name="Net-(P2-Pad5)">
+      <node ref="P2" pin="5"/>
+    </net>
+    <net code="14" name="Net-(P2-Pad2)">
+      <node ref="P2" pin="2"/>
+    </net>
+    <net code="15" name="Brake">
+      <node ref="P3" pin="3"/>
+      <node ref="H2" pin="4"/>
+    </net>
+    <net code="16" name="Net-(H1-Pad18)">
+      <node ref="H1" pin="18"/>
+    </net>
+    <net code="17" name="Net-(H1-Pad7)">
+      <node ref="H1" pin="7"/>
+    </net>
+    <net code="18" name="Net-(H1-Pad8)">
+      <node ref="H1" pin="8"/>
+    </net>
+    <net code="19" name="Net-(H1-Pad9)">
+      <node ref="H1" pin="9"/>
+    </net>
+    <net code="20" name="Net-(D3-Pad2)">
+      <node ref="D4" pin="1"/>
+      <node ref="H1" pin="16"/>
+      <node ref="P4" pin="2"/>
+      <node ref="D3" pin="2"/>
+    </net>
+    <net code="21" name="Net-(D1-Pad2)">
+      <node ref="D2" pin="1"/>
+      <node ref="H1" pin="17"/>
+      <node ref="P4" pin="1"/>
+      <node ref="D1" pin="2"/>
+    </net>
+    <net code="22" name="Net-(H1-Pad19)">
+      <node ref="H1" pin="19"/>
+    </net>
+    <net code="23" name="Net-(H1-Pad3)">
+      <node ref="H1" pin="3"/>
+    </net>
+    <net code="24" name="Input4">
+      <node ref="H1" pin="15"/>
+      <node ref="P2" pin="4"/>
+    </net>
+    <net code="25" name="PWM">
+      <node ref="H2" pin="5"/>
+      <node ref="P3" pin="4"/>
+    </net>
+    <net code="26" name="Input3">
+      <node ref="H1" pin="13"/>
+      <node ref="P2" pin="3"/>
+    </net>
+    <net code="27" name="Net-(H1-Pad2)">
+      <node ref="H1" pin="2"/>
+    </net>
+    <net code="28" name="Net-(H1-Pad4)">
+      <node ref="H1" pin="4"/>
+    </net>
+    <net code="29" name="Net-(H1-Pad5)">
+      <node ref="H1" pin="5"/>
+    </net>
+    <net code="30" name="Dir">
+      <node ref="P3" pin="2"/>
+      <node ref="H2" pin="3"/>
+    </net>
+  </nets>
+</export>
